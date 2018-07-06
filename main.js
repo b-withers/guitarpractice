@@ -13,5 +13,5 @@ function randomnote() {
   //adding generated random items to html page
     document.getElementById("finger").textContent = "Finger #: " + finger;
     document.getElementById("fret").textContent = "Fret #: " + fret;
-    document.getElementById("string").textContent = "String # / Letter: " + string;
+    document.getElementById("string").textContent = "String # / Name: " + string;
   };
