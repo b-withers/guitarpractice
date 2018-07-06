@@ -1,6 +1,7 @@
 
 
 function randomnote() {
+
   //code to generate random finger
     var fingers = ["1", "2", "3", "4"];
     var finger = fingers[Math.floor(Math.random() * fingers.length)];
@@ -14,4 +15,11 @@ function randomnote() {
     document.getElementById("finger").textContent = "Finger #: " + finger;
     document.getElementById("fret").textContent = "Fret #: " + fret;
     document.getElementById("string").textContent = "String # / Name: " + string;
+   
   };
+
+  var bflat = new Audio();
+  bflat.src = "sounds/guitar.wav";
+  function PlaySound() {
+      bflat.play();
+  }
