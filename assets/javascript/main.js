@@ -20,7 +20,7 @@ function randomnote() {
 
   //create sound for on.onclick
   var ClickSound = new Audio();
-  ClickSound.src = "sounds/guitar.wav";
+  ClickSound.src = "assets/sounds/guitar.wav";
   //create function to play sound during on.click
   function PlaySound() {
       ClickSound.play();
