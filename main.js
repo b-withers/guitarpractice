@@ -5,7 +5,7 @@ function randomnote() {
     var fret = frets[Math.floor(Math.random() * frets.length)];
     var strings = ["1", "2", "3", "4", "5", "6", "e", "A", "D", "G","B", "E"];
     var string = strings[Math.floor(Math.random() * strings.length)];
-    document.getElementById("finger").textContent = "Finger # " + finger;
-    document.getElementById("fret").textContent = "Fret # " + fret;
-    document.getElementById("string").textContent = "String # / Letter " + string;
+    document.getElementById("finger").textContent = "Finger #: " + finger;
+    document.getElementById("fret").textContent = "Fret #: " + fret;
+    document.getElementById("string").textContent = "String # / Letter: " + string;
   };
